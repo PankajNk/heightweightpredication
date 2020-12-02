@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div>
+	<h1>Predict value </h1>
+
+	<form action = "{{url_for('getpredication') }}" method= "post">
+		<input type="text" name="height" placeholder="Height" required="required">
+		<button type="submit" class= ""btn btn-primary btn-block btn-large>getpredication</button>
+		
+	</form>
+	<br>
+	<br>
+	{{ prediction_text }}
+
+</div>
+
+</body>
+</html>
