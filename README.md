@@ -19,7 +19,7 @@ Deployed link : https://heightweightpredication-api.herokuapp.com/
    * main_app.py -- is the main file of Flask ,
    * requriment.txt -- is the requried library 
    
-##Reference
+## Reference
 ***
 * https://realpython.com/tutorials/flask/
 * https://www.geeksforgeeks.org/deploy-python-flask-app-on-heroku/
